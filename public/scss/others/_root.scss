@@ -1,0 +1,29 @@
+// * Root Font Size
+// This is where all REM values will be based on
+:root {
+    font-size: 16px;
+}
+
+// * Root Font Families
+:root {
+    --font--sans-serif: 'Poppins', sans-serif;
+}
+
+// * Root Colors
+:root {
+    --color--background: rgba(21, 21, 46, 0.8);
+    --color--background-2: rgba(55, 175, 101,1);
+
+    --color--text: rgba(255, 255, 255, 1);
+    --color--text-input: rgba(0, 0, 0, 1);
+
+    --color--placeholder: rgba(255, 255, 255, 1);
+
+    --gradient-main: linear-gradient(135deg, rgba(68, 66, 192, 0.8),rgba(111, 111, 155, 0.8)); 
+}
+
+// * Input Placeholders
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    // color: var(--color-placeholder);
+}

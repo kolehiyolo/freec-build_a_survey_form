@@ -1,0 +1,35 @@
+@media (max-width:768px) {
+    html {
+        body {
+
+            .header,
+            .main {
+                width: 540px;
+            }
+        }
+    }
+}
+
+@media (max-width:576px) {
+    html {
+        body {
+
+            .header,
+            .main {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width:480px) {
+    html {
+        body {
+            .main {
+                &--survey-form {
+                    padding: 45px 20px 65px;
+                }
+            }
+        }
+    }
+}

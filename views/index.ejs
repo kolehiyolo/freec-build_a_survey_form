@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- * Head -->
+<%- include('modules/macro/head.ejs'); %>
+
+<body>
+    <!-- * Header -->
+    <%- include('modules/macro/header.ejs'); %>
+
+    <!-- * Main -->
+    <main id="main" class="main">
+        <form id="survey-form" class="main--survey-form" action="">
+            <label id="name-label" class="main--survey-form--label main--survey-form--name-label">
+                <p>Name</p>
+                <input id="name" class="main--survey-form--label--input" type="text" placeholder="Enter your name" required>
+            </label><br>
+            <label id="email-label" class="main--survey-form--label main--survey-form--email-label">
+                <p>Email</p>
+                <input id="email" class="main--survey-form--label--input" type="email" placeholder="Enter your Email" required>
+            </label><br>
+            <label id="number-label" class="main--survey-form--label main--survey-form--number-label">
+                <p>Age <span class="sublabel">(optional)</span></p>
+                <input id="number" class="main--survey-form--label--input" type="number" placeholder="Age" min="18" max="120">
+            </label><br>
+            <label id="dropdown-label" class="main--survey-form--label main--survey-form--dropdown-label">
+                <p>Which option best describes your current role?</p>
+                <select id="dropdown" class="main--survey-form--label--input">
+                    <option value="" disabled selected>Select current role</option>
+                    <option value="student">Student</option>
+                    <option value="full-time-job">Full Time Job</option>
+                    <option value="full-time-learner">Full Time Learner</option>
+                    <option value="prefer-not-to-say">Prefer not to say</option>
+                    <option value="other">Other</option>
+                </select>
+            </label><br>
+            <label id="radio-label" class="main--survey-form--label main--survey-form--radio-label">
+                <p>Would you recommend freeCodeCamp to a friend?</p>
+                <label id="definitely-label" class="main--survey-form--radio-label--option">
+                    <input id="definitely" type="radio" name="recommend" value="definitely">
+                    <span>Definitely</span>
+                </label><br>
+                <label id="maybe-label" class="main--survey-form--radio-label--option">
+                    <input id="maybe" type="radio" name="recommend" value="maybe">
+                    <span>Maybe</span>
+                </label><br>
+                <label id="not-sure" class="main--survey-form--radio-label--option">
+                    <input id="not-sure" type="radio" name="recommend" value="not-sure">
+                    <span>Not sure</span>
+                </label><br>
+            </label><br>
+            <label id="dropdown-2-label" class="main--survey-form--label main--survey-form--dropdown-2-label">
+                <p>What is your favorite feature of freeCodeCamp?</p>
+                <select id="dropdown-2" class="main--survey-form--label--input">
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="challenges">Challenges</option>
+                    <option value="projects">Projects</option>
+                    <option value="community">Community</option>
+                    <option value="open-source">Open Source</option>
+                </select>
+            </label><br>
+            <label id="checkbox-label" class="main--survey-form--label main--survey-form--checkbox-label">
+                <p>What would you like to see improved? <span class="sublabel">(Check all that apply)</span></p>
+                <label id="front-end-projects-label" class="main--survey-form--checkbox-label--option">
+                    <input id="front-end-projects" type="checkbox" name="checkbox" value="front-end-projects">
+                    <span>Front-end Projects</span>
+                </label><br>
+                <label id="back-end-projects-label" class="main--survey-form--checkbox-label--option">
+                    <input id="back-end-projects" type="checkbox" name="checkbox" value="back-end-projects">
+                    <span>Back-end Projects</span>
+                </label><br>
+                <label id="data-visualization-label" class="main--survey-form--checkbox-label--option">
+                    <input id="data-visualization" type="checkbox" name="checkbox" value="data-visualization">
+                    <span>Data Visualization</span>
+                </label><br>
+                <label id="challenges-label" class="main--survey-form--checkbox-label--option">
+                    <input id="challenges" type="checkbox" name="checkbox" value="challenges">
+                    <span>Challenges</span>
+                </label><br>
+                <label id="open-source-community-label" class="main--survey-form--checkbox-label--option">
+                    <input id="open-source-community" type="checkbox" name="checkbox" value="open-source-community">
+                    <span>Open Source Community</span>
+                </label><br>
+                <label id="glitter-help-rooms-label" class="main--survey-form--checkbox-label--option">
+                    <input id="glitter-help-rooms" type="checkbox" name="checkbox" value="glitter-help-rooms">
+                    <span>Glitter help rooms</span>
+                </label><br>
+                <label id="videos-label" class="main--survey-form--checkbox-label--option">
+                    <input id="videos" type="checkbox" name="checkbox" value="videos">
+                    <span>Videos</span>
+                </label><br>
+                <label id="city-meetups-label" class="main--survey-form--checkbox-label--option">
+                    <input id="city-meetups" type="checkbox" name="checkbox" value="city-meetups">
+                    <span>City Meetups</span>
+                </label><br>
+                <label id="wiki-label" class="main--survey-form--checkbox-label--option">
+                    <input id="wiki" type="checkbox" name="checkbox" value="wiki">
+                    <span>Wiki</span>
+                </label><br>
+                <label id="forum-label" class="main--survey-form--checkbox-label--option">
+                    <input id="forum" type="checkbox" name="checkbox" value="forum">
+                    <span>Forum</span>
+                </label><br>
+                <label id="additional-courses-label" class="main--survey-form--checkbox-label--option">
+                    <input id="additional-courses" type="checkbox" name="checkbox" value="additional-courses">
+                    <span>Additional Courses</span>
+                </label><br>
+            </label><br>
+            <label id="textarea-label" class="main--survey-form--label main--survey-form--textarea-label">
+                <p>Any comments or suggestions?</p>
+                <textarea id="textarea" class="main--survey-form--label--input" name="textarea" placeholder="Enter your comment here..."></textarea>
+            </label><br>
+            <input id="submit" class="main--survey-form--submit" type="submit">
+        </form>
+    </main>
+
+    <!-- * Footer -->
+    <%- include('modules/macro/footer.ejs'); %>
+
+    <!-- * Attribution -->
+    <%- include('modules/macro/attribution.ejs'); %>
+
+    <!-- * Client-side Scripts -->
+    <%- include('modules/macro/scripts.ejs'); %>
+</body>
+
+</html>
