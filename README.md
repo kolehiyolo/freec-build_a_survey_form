@@ -1,4 +1,4 @@
-# Kolehiyolo | (Source) | (Project)
+# Kolehiyolo | freeCodeCamp | Build a Survey Form
 Welcome! I am a budding coder and this is my submission to the 'Build a Survey Form' project from freeCodeCamp.
 
 ## Table of contents
@@ -17,7 +17,7 @@ Welcome! I am a budding coder and this is my submission to the 'Build a Survey F
 
 ## Overview
 ### Summary
-This is where we write the summary of what the project is all about
+It's been a while since I actually built this project but I do remember having fun with this since the design is actually quite good aesthetic-wise. It's a solid project that also forces me to really get into forms and inputs and all that. Overall this project was really exciting
 
 ### The Challenge
 - Perfectly mimic the sample page from [CodePen](https://codepen.io/freeCodeCamp/full/VPaoNP)
@@ -35,8 +35,8 @@ This is where we write the summary of what the project is all about
 - freeCodeCamp Challenge: [freeCodeCamp | Build a Survey Form](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form)
 - Sample: [CodePen](https://codepen.io/freeCodeCamp/full/VPaoNP)
 - Solution URL: [GitHub Repo](https://github.com/kolehiyolo/freecodecamp--build_a_survey_form)
-- Live Site URL (Static): [Kolehiyolo | freeCodeCamp | Build a Survey Form (Static)](https://kolehiyolo.github.io/freecodecamp--build_a_tribute_page/)
-- Live Site URL: [Kolehiyolo | freeCodeCamp | Build a Survey Form](https://kolehiyolo.github.io/freecodecamp--build_a_tribute_page/)
+- Live Site URL (Static): [Kolehiyolo | freeCodeCamp | Build a Survey Form (Static)](https://kolehiyolo.github.io/freecodecamp--build_a_survey_form/)
+- Live Site URL: [Kolehiyolo | freeCodeCamp | Build a Survey Form](https://kolehiyolo.github.io/freecodecamp--build_a_survey_form/)
 
 ## My process
 ### Built with
