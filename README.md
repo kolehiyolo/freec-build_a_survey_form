@@ -17,7 +17,7 @@ Welcome! I am a budding coder and this is my submission to the 'Build a Survey F
 
 ## Overview
 ### Summary
-It's been a while since I actually built this project but I do remember having fun with this since the design is actually quite good aesthetic-wise. It's a solid project that also forces me to really get into forms and inputs and all that. Overall this project was really exciting
+It's been a while since I actually built this project but I do remember having fun with this since the design is actually quite good aesthetic-wise. It's a solid project that also forces me to really get into forms and inputs and all that. Overall this project was really exciting.
 
 ### The Challenge
 - Perfectly mimic the sample page from [CodePen](https://codepen.io/freeCodeCamp/full/VPaoNP)
@@ -46,7 +46,7 @@ It's been a while since I actually built this project but I do remember having f
 - Mobile-first workflow
 
 ### What I learned
-One of the significant things I learned was setting up a background image and making it work position/zoom-wise. I built this project long ago so I'm not sure what else I had a hard time with or what new stuff I learned. Perhaps I'll update this document if I remember
+One of the significant things I learned was setting up a background image and making it work position/zoom-wise. I built this project long ago so I'm not sure what else I had a hard time with or what new stuff I learned. Perhaps I'll update this document if I remember.
 
 ### Continued development
 I'm not sure what skills I picked up here that offer great help with my future projects, but I do enjoy learning more about building forms through practice. I guess if there's anything I can carry later is that practice really does build skills.
